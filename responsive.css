@@ -53,7 +53,13 @@
         height: 300px;
     }
    
-   
+    .shorts-item .shorts-caption {
+        transform: translateY(0%);
+    }
+    .shorts-item:hover .shorts-caption {
+        transform: translateY(100%);
+    }    
+
 }
 @media screen and (max-width: 513px){
  .nav-item{
