@@ -70,3 +70,62 @@ body, html {
     opacity: 1;
 }
 
+/* General styles for the shorts section */
+.shorts-section {
+    padding: 2rem;
+}
+
+.shorts-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Grid container for the shorts items */
+.shorts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Styles for each shorts item */
+.shorts-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shorts-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #333;
+}
+
+.shorts-item .shorts-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.shorts-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.shorts-item:hover .shorts-caption {
+    transform: translateY(0);
+}
