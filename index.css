@@ -56,28 +56,37 @@ h2 {
     margin-bottom: 15px;
     color: #f9c74f;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-}
+} 
+
 
 p {
     font-size: 1.2em;
+    color: #ffffff; /* Light text for readability against dark background */
     margin-bottom: 15px;
+    line-height: 1.5; /* Spacing between lines */
+}
+.profile-text p {
+    font-size: 1.1em;
+    color: #ffffff; /* Slightly lighter text color within profile section */
+    margin-bottom: 10px;
 }
 
-/* Blockquote Styling */
 blockquote {
     font-style: italic;
-    color: #ccc;
+    color: #ccc; /* Lighter text color for emphasis */
     margin: 20px 0;
     padding: 10px 20px;
     border-left: 4px solid #f9c74f;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     border-radius: 5px;
+    font-size: 1.1em; /* Slightly larger text size */
 }
 
 blockquote cite {
     display: block;
     margin-top: 10px;
     font-weight: bold;
+    color: #fff; /* Make the citation more visible */
     text-align: right;
 }
 
@@ -138,4 +147,37 @@ blockquote cite {
     padding: 10px;
     border-radius: 5px;
 }
+
+.profile-text {
+    text-align: center; /* Align text to the left */
+    color: #eee; /* Light color for readability against dark background */
+}
+
+.profile-text h3 {
+    font-size: 1.5em;
+    color: #f9c74f; /* Highlight color */
+    margin-bottom: 10px;
+}
+
+.profile-text h4 {
+    font-size: 1.3em;
+    color:  #f9c74f;
+    margin-bottom: 10px;
+   
+}
+
+.qualifications-row {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    flex-wrap: wrap; /* Wrap items if they don't fit in one line */
+    gap: 15px; /* Space between items */
+    margin-bottom: 20px; /* Space below the row */
+}
+
+.qualifications-row span {
+    font-size: 1.1em;
+    color:  #f9c74f; /* Light color for text */
+}
+
+
 
