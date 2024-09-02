@@ -31,6 +31,19 @@ main {
     border-radius: 10px;
 }
 
+.profile {
+    text-align: center; /* Center-align the content inside the .profile div */
+    margin: 20px; /* Add some margin around the profile div */
+}
+
+.profile-photo {
+    width: 250px; /* Set the width of the profile photo */
+    height: 250px; /* Set the height of the profile photo */
+    border: 3px solid #fcf9f9; /* Add a border around the photo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
