@@ -327,3 +327,69 @@ body, html {
 .teacher-day-gallery-grid .gallery-item:hover .gallery-item-caption {
     opacity: 1;
 }
+
+/* Independence Day Celebration Section Styling */
+.independence-day-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.independence-day-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.independence-day-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Independence Day Gallery Grid */
+.independence-day-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.independence-day-gallery-grid .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.independence-day-gallery-grid .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.independence-day-gallery-grid .gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.independence-day-gallery-grid .gallery-item-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.independence-day-gallery-grid .gallery-item:hover .gallery-item-caption {
+    opacity: 1;
+}
