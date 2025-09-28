@@ -459,3 +459,58 @@ body, html {
 .plantation-gallery-grid .gallery-item:hover .gallery-item-caption {
     opacity: 1;
 }
+
+/* Karan Mahotsav Section Styling */
+.karan-mahotsav-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f3f0ed; /* Soft festive tone */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.karan-mahotsav-section h2 {
+    font-size: 2.5em;
+    color: #b3541e; /* Warm, celebratory color */
+    margin-bottom: 20px;
+}
+
+.karan-mahotsav-section p {
+    font-size: 1.2em;
+    color: #5a4634;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Karan Mahotsav Gallery Grid */
+.karan-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.karan-gallery-grid .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.karan-gallery-grid .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.karan-gallery-grid .gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+
+.karan-gallery-grid .gallery-item:hover  {
+    opacity: 1;
+}
