@@ -38,3 +38,6 @@ function loadHTML(elementId, fileName) {
 window.onload = function() {
     loadHTML('footer', 'footer.html');
 };
+
+
+
