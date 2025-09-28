@@ -38,7 +38,7 @@ main {
 
 .profile-photo {
     width: 350px; /* Set the width of the profile photo */
-    height: 50px; /* Set the height of the profile photo */
+    height: 350px; /* Set the height of the profile photo */
     border: 3px solid #fcf9f9; /* Add a border around the photo */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     object-fit: cover; /* Ensure the image covers the entire container */
